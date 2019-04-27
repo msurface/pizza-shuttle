@@ -1,0 +1,56 @@
+/* colors */
+
+/* Yellow
+HTML - #FDF104 
+RBG - 253 241 4
+*/
+/* Red
+HTML - #CE2028
+RBG - 206 32 40
+ */
+
+/* global CSS */
+html {
+    font-size: 20px;
+}
+
+/* Header CSS */
+.header {
+    background-image: url(../images/header-one.jpg);
+    background-size: cover;
+    height: 75vh;
+    position: relative;
+}
+
+/* Header Logo CSS */
+.header img {
+    transform: rotate(90deg);
+    padding: 10px;
+    margin-bottom: 5px;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50px;
+    top: 25px;
+}
+
+.hero-box {
+    text-align: center;
+    position: absolute;
+    left: 20%;
+    top: 35%;
+}
+
+.hero-box h1 {
+    font-size: 700%;
+    font-weight: 1000;
+    color: #FDF104;
+    text-shadow: -3px 0 #CE2028, 0 3px #CE2028, 3px 0 #CE2028, 0 -3px #CE2028;
+}
+
+.hero-box p {
+    color: #FDF104;
+    font-size: 220%;
+    font-weight: 800;
+    text-shadow: -2px 0 #CE2028, 0 2px #CE2028, 2px 0 #CE2028, 0 -2px #CE2028;
+}
