@@ -181,3 +181,14 @@ p {
     background-color: black;
 }
 
+.example h4:after {
+        display: block;
+        height: 2px;
+        background-color: #fff;
+        content: " ";
+        width: 75px;
+        margin: 0 auto;
+        margin-top: 15px;
+        margin-bottom: 25px;
+}
+
