@@ -15,17 +15,16 @@ html {
     text-rendering: optimizeLegibility;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     text-transform: uppercase;
-}
-
-h1 {
     word-spacing: 4px;
     letter-spacing: 1px;
 }
 
 p {
     text-transform: uppercase;
+    word-spacing: 4px;
+    letter-spacing: 1px;
 }
 
 /* Header CSS */
@@ -86,18 +85,99 @@ p {
     transition: 0.2s, color 0.2s
 }
 
+/* Styling for the order button color to match */
 .order-btn:link,
 .order-btn:visited {
     color: #CE2028;
 }
 
+/* text color of menu button */
 .menu-btn {
     color: #FFF;
 }
 
+/* text color of order button when hovered of clicked */
 .order-btn:hover,
 .order-btn:active {
     color: #FDF104;
     
+}
+
+/* ------------------------ */
+/* --- Specials Section --- */
+/* ------------------------ */
+.col {
+    text-align: center;
+}
+.food-specials h2 {
+    font-size: 220%;
+    font-weight: 700;
+    margin-top: 45px;
+    margin-bottom: 50px;
+    color: #FDF104;
+    text-shadow: -2px 0 #CE2028, 0 2px #CE2028, 2px 0 #CE2028, 0 -2px #CE2028;
+}
+
+.food-specials h2:after {
+    display: block;
+    height: 2px;
+    background-color: #CE2028;
+    content: " ";
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.large-special {
+    margin-bottom: 30px;
+    color: #FDF104;
+    text-shadow: -2px 0 #CE2028, 0 2px #CE2028, 2px 0 #CE2028, 0 -2px #CE2028;
+}
+
+#large-special-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.178),rgba(0, 0, 0, 0.178)) ,url(../images/specials1.jpg);
+    background-size: cover;
+}
+
+#large-special-2 {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.178),rgba(0, 0, 0, 0.178)), url(../images/specials2.jpg);
+    background-size: cover;
+}
+
+.large-special-card {
+    border-radius: 20px;
+    padding-top: 25px;
+    text-align: center;
+}
+
+.small-special {
+    color: #FDF104;
+    text-shadow: -2px 0 #CE2028, 0 2px #CE2028, 2px 0 #CE2028, 0 -2px #CE2028;
+}
+
+.small-special h4:after {
+    display: block;
+    height: 2px;
+    background-color: #000;
+    content: " ";
+    width: 75px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.small-special p {
+    font-size: 110%;
+}
+
+.small-special-card {
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45))
+}
+
+.example {
+    background-color: black;
 }
 
