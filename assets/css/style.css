@@ -205,4 +205,15 @@ p {
     padding-bottom: 25px;
 }
 
+/* Footer Section */
+
+.footer-section{
+    margin-top: 65px;
+    text-align: center;
+    background: rgb(253, 250, 250);
+}
+
+.footer-content {
+    padding-top: 25px;
+}
 
