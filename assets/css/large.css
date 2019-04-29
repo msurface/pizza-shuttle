@@ -44,43 +44,39 @@ a {
     transform: rotate(90deg);
     padding: 10px;
     margin-bottom: 5px;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     position: absolute;
-    left: 25px;
+    left: 75px;
     top: 25px;
 
 }
-
 
 /* Positioning the Hero Text Box in the middle */
 .hero-box {
     text-align: center;
     position: absolute;
-    left: 0%;
-    top: 30%;
+    left: 10%;
+    top: 40%;
 }
-
 
 /* Styling h1 heading in the hero text box PIZZA SHUTTLE */
 .hero-box h1 {
-    font-size: 290%;
-    font-weight: 800;
+    font-size: 650%;
+    font-weight: 1000;
     color: #FDF104;
-    text-shadow: -2px 0 #CE2028, 0 2px #CE2028, 2px 0 #CE2028, 0 -2px #CE2028;
+    text-shadow: -3px 0 #CE2028, 0 3px #CE2028, 3px 0 #CE2028, 0 -3px #CE2028;
 }
-
 
 /* Styling Home of the Cream in the hero text box */
 .hero-box p {
     color: #FDF104;
-    font-size: 120%;
-    font-weight: 550;
+    font-size: 220%;
+    font-weight: 800;
     text-shadow: -2px 0 #CE2028, 0 2px #CE2028, 2px 0 #CE2028, 0 -2px #CE2028;
     letter-spacing: 1px;
     word-spacing: 2px;
 }
-
 
 /* If we need to move the icons from the right */
 #social-media-icons {
@@ -89,10 +85,9 @@ a {
 
 /* Styling for the buttons in the hero box */
 .btn-hero{
-    margin-bottom: 20px;
-    width: 200px;
+    margin-right: 50px;
+    width: 150px;
     transition: 0.2s, color 0.2s
-
 }
 
 /* Styling for the order button color to match */
@@ -104,7 +99,6 @@ a {
 /* text color of menu button */
 .menu-btn {
     color: #FFF;
-    margin-right: 40px;
 }
 
 /* text color of order button when hovered of clicked */
@@ -157,7 +151,6 @@ a {
     border-radius: 20px;
     padding-top: 25px;
     text-align: center;
-    height: 100%;
 }
 
 /* Styling the text in the small special cards */
@@ -176,8 +169,6 @@ a {
     padding: 10px;
     text-align: center;
     border-radius: 20px;
-    margin-bottom: 10px;
-    height: 92%;
 }
 
 /* creating a black background for all cards */
@@ -257,127 +248,5 @@ a {
     transform: rotate(90deg);
     height: 55px;
     width: 55px;
-    margin: 15px 0;
 
 }
-.center {
-    text-align: center;
-    
-}
-
-#social-media-icons-bottom {
-    justify-content: center;
-}
-
-/* media queries */
-
-@media (min-width: 379px) {
-    .main-logo {
-        width: 120px;
-        height: 120px;
-        top: 30px;
-    }
-
-    .hero-box {
-        left: 5%;
-        top: 38%;
-    }
-
-    .hero-box h1 {
-        font-size: 350%;
-        font-weight: 800;
-    }
-
-    .hero-box p {
-        color: #FDF104;
-        font-size: 150%;
-        font-weight: 550;
-        text-shadow: -1px 0 #CE2028, 0 1px #CE2028, 1px 0 #CE2028, 0 -1px #CE2028;
-    }
-
-    .btn-hero {
-        width: 150px;
-    }
-}
-
-@media (min-width: 693px) {
-    .main-logo {
-        width: 160px;
-        height: 160px;
-        top: 30px;
-    }
-
-    .hero-box {
-        left: 12%;
-        top: 35%;
-    }
-
-    .hero-box h1 {
-        font-size: 470%;
-        font-weight: 800;
-        text-shadow: -2px 0 #CE2028, 0 2px #CE2028, 2px 0 #CE2028, 0 -2px #CE2028;
-    }
-
-    .hero-box p {
-        color: #FDF104;
-        font-size: 190%;
-        font-weight: 550;
-        text-shadow: -1px 0 #CE2028, 0 1px #CE2028, 1px 0 #CE2028, 0 -1px #CE2028;
-    }
-
-    .btn-hero {
-        width: 150px;
-    }
-}
-
-@media (min-width: 799px) {
-    .hero-box {
-        left: 5%;
-        top: 35%;
-    }
-}
-
-
-@media (min-width: 1015px) {
-    .hero-box {
-        left: 3%;
-        top: 40%;
-    }
-
-    .main-logo {
-        width: 150px;
-        height: 150px;
-        top: 30px;
-        left: 45px;
-    }
-}
-
-@media (min-width: 1250px) {
-    .hero-box {
-        left: 5%;
-        top: 40%;
-    }
-
-}
-
-@media (min-width: 1450px) {
-    .hero-box {
-        left: 10%;
-        top: 40%;
-    }
-}
-
-@media (min-width: 1450px) {
-    .hero-box {
-        left: 15%;
-        top: 40%;
-    }
-}
-
-@media (min-width: 1550px) {
-    .hero-box {
-        left: 19%;
-        top: 40%;
-    }
-}
-
