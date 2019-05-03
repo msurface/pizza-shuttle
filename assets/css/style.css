@@ -43,13 +43,13 @@ a {
 .header h1 {
     font-size: 300%;
     font-weight: 700;
-    color: #FDF104;
+    color: #000;
 }
 
 .header h1:after {
     display: block;
     height: 2px;
-    background-color: #000;
+    background-color: #FDF104;
     content: " ";
     width: 100px;
     margin: 0 auto;
@@ -60,7 +60,7 @@ a {
 .header h4 {
     font-size: 120%;
     font-weight: 600;
-    color: #FDF104;
+    color: #000;
     margin-bottom: 35px;
 }
 
