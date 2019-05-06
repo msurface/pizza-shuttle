@@ -34,34 +34,18 @@ a {
 /* Header CSS */
 .header {
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24)),url(../images/alan-hardman-780215-unsplash.jpg);
-    background-size: cover;
-    
+    /* background-image: url(../GraphicAssets/HeaderImages/PSHERO5.jpg); */
+}
 
+.header img {
+    height: 100%;
+    width: 100%;
 }
 
 .header h1 {
     font-size: 300%;
     font-weight: 700;
     color: #000;
-}
-
-.header h1:after {
-    display: block;
-    height: 2px;
-    background-color: #FDF104;
-    content: " ";
-    width: 100px;
-    margin: 0 auto;
-    margin-top: 30px;
-    margin-bottom: 30px;  
-}
-
-.header h4 {
-    font-size: 120%;
-    font-weight: 600;
-    color: #000;
-    margin-bottom: 35px;
 }
 
 .header p {
@@ -71,12 +55,6 @@ a {
 
 .header a {
     width: 200px;
-}
-
-
-/* If we need to move the icons from the right */
-#social-media-icons {
-
 }
 
 /* Styling for the buttons in the hero box */
@@ -140,8 +118,11 @@ a {
 /* styling the large-special cards text */
 .large-special {
     margin-bottom: 30px;
-    color: #FDF104;
-    text-shadow: -2px 0 #CE2028, 0 2px #CE2028, 2px 0 #CE2028, 0 -2px #CE2028;
+}
+
+.large-special img {
+    height: 100%;
+    width: 100%;
 }
 
 /* rounding corners, adding padding, and centering text in the special cards */
@@ -154,8 +135,12 @@ a {
 
 /* Styling the text in the small special cards */
 .small-special {
-    color: #FDF104;
-    text-shadow: -2px 0 #CE2028, 0 2px #CE2028, 2px 0 #CE2028, 0 -2px #CE2028;
+    margin-bottom: 25px;
+}
+
+.small-special img {
+    height: 100%;
+    width: 100%;
 }
 
 /* styling the p tags font size in the small special cards */
