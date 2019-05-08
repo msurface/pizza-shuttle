@@ -1,12 +1,10 @@
 /* colors */
 
 /* Yellow
-HTML - #FDF104 
-RBG - 253 241 4
+HTML - #FFF200
 */
 /* Red
-HTML - #CE2028
-RBG - 206 32 40
+HTML - #EE202E
  */
 
  @font-face {
@@ -106,32 +104,6 @@ a {
     width: 300px;
 }
 
-/* Styling for the buttons in the hero box */
-.btn-hero{
-    margin-bottom: 20px;
-    width: 200px;
-    transition: 0.2s, color 0.2s
-
-}
-
-/* Styling for the order button color to match */
-.order-btn:link,
-.order-btn:visited {
-    color: #CE2028;
-}
-
-/* text color of menu button */
-.menu-btn {
-    color: #FFF;
-    margin-right: 40px;
-}
-
-/* text color of order button when hovered of clicked */
-.order-btn:hover,
-.order-btn:active {
-    color: #000;
-    
-}
 
 /* ------------------------ */
 /* --- Specials Section --- */
@@ -157,7 +129,7 @@ a {
 .food-specials h2:after {
     display: block;
     height: 2px;
-    background-color: #CE2028;
+    background-color: #EE202E;
     content: " ";
     width: 100px;
     margin: 0 auto;
@@ -206,38 +178,6 @@ a {
     height: 92%;
 }
 
-/* creating a black background for all cards */
-.card {
-    background-color: black;
-}
-
-/* creating a white line after card heading */
-.card h4:after,
-.card h3:after {
-        display: block;
-        height: 2px;
-        background-color: #fff;
-        content: " ";
-        width: 75px;
-        margin: 0 auto;
-        margin-top: 15px;
-        margin-bottom: 25px;
-}
-
-/* padding for h4 in cards */
-.card h4 {
-    padding-top: 15px;
-}
-
-/* size of the price font */
-.price {
-    font-size: 200%;
-}
-
-/* padding after the price in the large card */
-.price-large {
-    padding-bottom: 25px;
-}
 
 /* Footer Section */
 
@@ -261,7 +201,7 @@ a {
 .footer-content h5:after {
     display: block;
     height: 2px;
-    background-color: #CE2028;
+    background-color: #EE202E;
     content: " ";
     width: 35px;
     margin: 0 auto;
@@ -280,7 +220,6 @@ a {
 }
 
 .footer-logo {
-    transform: rotate(90deg);
     height: 55px;
     width: 55px;
     margin: 15px 0;
