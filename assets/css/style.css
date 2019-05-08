@@ -84,7 +84,7 @@ a {
 .masthead {
     height: 100vh;
     min-height: 500px;
-    background-image: url(../GraphicAssets/HeaderImages/PS-HERO5.jpg);
+    background-image: url(../GraphicAssets/HeaderImages/PS-HERO4.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -140,6 +140,18 @@ a {
 .large-special {
     margin-bottom: 30px;
 }
+@media (max-width: 575.98px) { 
+    .image-container {
+        height: 270px;
+        overflow: hidden;
+        padding: 10px 0;
+    }
+
+    .large-special img {
+        transform: scale(1.3);
+        
+    }
+ }
 
 .large-special img {
     height: 100%;
@@ -215,8 +227,7 @@ a {
 
 .footer-bottom p {
     padding-top: 8px;
-    color: #FDF104;
-    text-shadow: -2px 0 #CE2028, 0 2px #CE2028, 2px 0 #CE2028, 0 -2px #CE2028;
+    color: #EE202E;
 }
 
 .footer-logo {
