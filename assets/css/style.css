@@ -196,10 +196,14 @@ a {
 /* Footer Section */
 
 /* placing margin at the top of the section, centering the text, and placing a gradient over the section */
-.footer-section{
+.footer-section {
     margin-top: 65px;
     text-align: center;
     background: rgb(253, 250, 250);
+}
+
+.nav {
+    justify-content: center;
 }
 
 /* providing padding between top elements in the footer content. */
