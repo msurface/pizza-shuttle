@@ -140,16 +140,18 @@ a {
 .large-special {
     margin-bottom: 30px;
 }
+
+.large-mobile {
+    display: none;
+}
+
 @media (max-width: 575.98px) { 
-    .image-container {
-        height: 270px;
-        overflow: hidden;
-        padding: 10px 0;
+    .large-mobile {
+        display: block;
     }
 
-    .large-special img {
-        transform: scale(1.3);
-        
+    .large-regular {
+        display: none;
     }
  }
 
@@ -239,8 +241,4 @@ a {
 .center {
     text-align: center;
     
-}
-
-#social-media-icons-bottom {
-    justify-content: center;
 }
