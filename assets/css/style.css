@@ -63,6 +63,10 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+body {
+    font-family: 'francois One', sans-serif;
+}
+
 h1, h2, h3, h4 {
     text-transform: uppercase;
     word-spacing: 4px;
@@ -90,6 +94,20 @@ a {
     background-repeat: no-repeat;
   }
 
+  header h1 {
+      font-size: 600%;
+      color: #fff;
+      text-shadow: 1px 1px 1px #000;
+  }
+
+  header p {
+      font-size: 800%;
+      letter-spacing: 3px;
+      color: #fff;
+      word-spacing: 10px;
+      text-shadow: 1px 1px 1px #000;
+  }
+
 .masthead img {
     margin: 0;
     padding: 0;
@@ -111,7 +129,9 @@ a {
 
 /* Centering the deals headline content */
 .deals-headline {
+    font-size: 200%;
     text-align: center;
+    /* text-shadow: 1px 1px 1px rgba(226, 12, 12, 0.171); */
 }
 
 
@@ -145,6 +165,10 @@ a {
     display: none;
 }
 
+.image-container {
+    box-shadow: 2px 2px 2px #FFF200;
+}
+
 @media (max-width: 575.98px) { 
     .large-mobile {
         display: block;
@@ -176,6 +200,7 @@ a {
 .small-special img {
     height: 100%;
     width: 100%;
+    box-shadow: 2px 2px 2px #FFF200;
 }
 
 /* styling the p tags font size in the small special cards */
