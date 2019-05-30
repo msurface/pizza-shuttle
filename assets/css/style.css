@@ -169,7 +169,11 @@ a {
     box-shadow: 2px 2px 2px #FFF200;
 }
 
-@media (max-width: 575.98px) { 
+@media (max-width: 575.98px) {
+    header h1 {
+        font-size: 500%;
+    }
+
     .large-mobile {
         display: block;
     }
