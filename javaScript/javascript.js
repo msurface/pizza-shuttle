@@ -1,14 +1,13 @@
-console.log('WOrking')
+console.log('Working')
 
-console.log(document.querySelectorAll('.list-inline-item').length)
 
 // Smooth Scroll Feature
 
 // grabbing the specials header link
-const specials = document.querySelector('#specials-scroll');
+let specials = document.querySelector('#specials-scroll');
 
 // grabbing the contact header link
-const contactClick = document.querySelector('#contact-scroll');
+let contactClick = document.querySelector('#contact-scroll');
 
 function specialsScroll() {
   const target = document.querySelector('.food-specials');

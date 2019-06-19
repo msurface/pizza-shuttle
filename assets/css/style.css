@@ -158,6 +158,16 @@ a {
     text-decoration: none;
 }
 
+.alt-nav-item {
+    text-decoration: none;
+    color: #fff;
+}
+
+.alt-nav-item:hover {
+    color: #EE202E;
+    text-decoration: none;
+}
+
 .masthead li {
     padding-left: 10px;
     letter-spacing: 3px;

@@ -1,10 +1,15 @@
+html {
+  font-size: 20px;
+}
+
 body {
-  background-color: #FFF200;
+  background-color: #EE202E;
   font-family: 'Passion One', cursive;
 }
 
 header {
   margin-bottom: 35px;
+  background-color: #000;
 }
 
 header ul {
@@ -27,13 +32,24 @@ header li {
   text-decoration: none;
 }
 
+.alt-nav-item {
+  text-decoration: none;
+  color: #fff;
+}
+
+.alt-nav-item:hover {
+  color: #EE202E;
+  text-decoration: none;
+}
+
 .big-container {
-  background-color: red;
-  margin: 25px 25px;
+  margin: 0px 25px;
+  margin-top: 65px;
+  margin-bottom: 65px;
 }
 
 .big-container img {
-  padding: 35px;
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.356)
 }
 
 @media (max-width: 575.98px) { 

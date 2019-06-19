@@ -28,7 +28,7 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
-    <script src="javaScript/javascript.js"></script>
+    <script defer src="javaScript/javascript.js"></script>
 </head>
 
 <body>
@@ -41,9 +41,8 @@
             </a>
             <ul class="list-inline ml-auto">
                 <li class="list-inline-item"><a href="./pages/menu.html" class="index-nav-items">Menu</a></li>
-                <li class="list-inline-item"><a href="#" class="index-nav-items">Specials</a></li>
-                <li class="list-inline-item" id="contact-scroll"><a href="#" class="index-nav-items">Contact Info</a>
-                </li>
+                <li class="list-inline-item alt-nav-item" id="specials-scroll">Specials</li>
+                <li class="list-inline-item alt-nav-item" id="contact-scroll">Contact Info</li>
             </ul>
         </nav>
         <div class="container h-100">
@@ -66,7 +65,7 @@
 
     <div class="container-fluid">
         <!-- Food Special's Section -->
-        <section class="food-specials">
+        <section class="food-specials" id="SPECIALS">
             <!-- Section Heading -->
             <div class="row">
                 <div class="col deals-headline">
