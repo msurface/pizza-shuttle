@@ -9,6 +9,7 @@ let specials = document.querySelector('#specials-scroll');
 // grabbing the contact header link
 let contactClick = document.querySelector('#contact-scroll');
 
+
 function specialsScroll() {
   const target = document.querySelector('.food-specials');
   target.scrollIntoView();
