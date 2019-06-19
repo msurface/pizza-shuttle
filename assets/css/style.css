@@ -72,6 +72,7 @@ body {
     font-family: 'Passion One', cursive;
     /* font-family: 'Bungee', cursive; */
     /* font-family: 'Bowlby One SC', cursive; */
+    
 }
 
 h1, h2, h3, h4 {
@@ -99,6 +100,7 @@ a {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    padding: 10 25px 0 25px;
   }
 
   .logo {
@@ -141,9 +143,30 @@ a {
     padding: 0;
 }
 
-.masthead a {
-    margin: 0;
+
+.masthead ul {
+    margin-right: 50px;
 }
+
+.index-nav-items {
+    text-decoration: none;
+    color: #fff;
+}
+
+.index-nav-items:hover {
+    color: #EE202E;
+    text-decoration: none;
+}
+
+.masthead li {
+    padding-left: 10px;
+    letter-spacing: 3px;
+    font-size: 130%;
+
+}
+
+
+
 
 #button {
     height: 300px;
@@ -157,6 +180,7 @@ a {
     font-size: 100%;
     margin-bottom: 40px;
 }
+
 
 
 /* ------------------------ */
@@ -216,6 +240,22 @@ a {
 
     .large-regular {
         display: none;
+    }
+
+    .navbar-brand img {
+        width: 85px;
+        height: 85px;
+    }
+
+    .masthead li {
+        padding-left: 5px;
+        letter-spacing: 2px;
+        font-size: 100%;
+    
+    }
+
+    .masthead ul {
+        margin-right: 20px;
     }
  }
 
